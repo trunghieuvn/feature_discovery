@@ -946,8 +946,8 @@ class _TapTarget extends StatelessWidget {
             child: RawMaterialButton(
               fillColor: color,
               shape: const CircleBorder(),
-              child: child,
               onPressed: onPressed,
+              child: child,
             ),
           ),
         ),

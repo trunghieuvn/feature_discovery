@@ -81,10 +81,10 @@ class TestIconState extends State<TestIcon> {
       // Otherwise, the tester can never settle as it requires frame sync.
       enablePulsingAnimation: false,
       allowShowingDuplicate: widget.allowShowingDuplicate,
-      child: icon,
       tapTarget: icon,
       title: const Text('This is it'),
       description: Text('Test has passed for ${widget.featureId}'),
+      child: icon,
     );
   }
 }
@@ -141,7 +141,7 @@ class OverflowingDescriptionFeature extends StatelessWidget {
                     child: Container(
                       width: 1e2,
                       height: 1e2,
-                      color: const Color(0xfffffff),
+                      color: const Color(0x0fffffff),
                     ),
                   ),
                 ),

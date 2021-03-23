@@ -1,4 +1,6 @@
 include: package:pedantic/analysis_options.yaml
+exclude:
+  - example/**
 linter:
   rules:
     unnecessary_const: true
