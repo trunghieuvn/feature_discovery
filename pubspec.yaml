@@ -15,15 +15,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  provider: ^4.0.4
-  shared_preferences: ^0.5.6+1
+  provider: 5.0.0
+  shared_preferences: ^2.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  pedantic: 1.9.0
-
-dependency_overrides:
-  # TODO(creativecreatorormaybenot): Remove when Pedantic is updated in flutter_test.
-  pedantic: 1.9.0
+  pedantic: ^1.11.0
+# dependency_overrides:
+# TODO(creativecreatorormaybenot): Remove when Pedantic is updated in flutter_test.
+# pedantic: ^1.11.0
